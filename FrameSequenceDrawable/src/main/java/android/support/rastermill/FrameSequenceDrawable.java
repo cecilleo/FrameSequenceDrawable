@@ -44,8 +44,8 @@ public class FrameSequenceDrawable extends Drawable implements Animatable, Runna
      * <p>
      * Note that 0 delay is undefined behavior in the GIF standard.
      */
-    private static final long MIN_DELAY_MS = 20;
-    private static final long DEFAULT_DELAY_MS = 20;
+    private static final long MIN_DELAY_MS = 5;
+    private static final long DEFAULT_DELAY_MS = 5;
     private static final Object sLock = new Object();
     private static HandlerThread sDecodingThread;
     private static Handler sDecodingThreadHandler;
